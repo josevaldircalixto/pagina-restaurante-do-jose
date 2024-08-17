@@ -3,12 +3,12 @@ body {
 }
 
 .navbar {
-  background-color: #e15f41;
+  background-color: #41d6e1;
 }
 
 #cabecalho .nav .nav-link.active {
   background-color: #fff;
-  color: #e15f41;
+  color: #000000;
 }
 
 #cabecalho .nav .nav-link,
@@ -20,7 +20,7 @@ body {
 
 
 .navbar-toggler {
-  background-color: #ffeae6;
+  background-color: #1ab6b6;
 }
 
 .section-title {
@@ -32,21 +32,21 @@ body {
 
 #sobre-o-restaurante,
 #cardapio {
-  background-color: #ffeae6;
+  background-color: #1ab6b6;
 }
 
 .text-colored {
-  color: #e15f41;
+  color: #0127ff;
 }
 
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
-  background-color: #e15f41;
-  color: #fff;
+  background-color: #7bd811;
+  color: #0127ff;
 }
 
 .nav-cardapio .nav-link:hover {
-  color: #e15f41;
+  color: #f3ef00;
 }
 
 .social-links li {
@@ -62,4 +62,13 @@ body {
   .carousel-item img {
     height: 280px;
   }
+}
+
+.carousel-item img {
+  height: 500px;
+  /* Defina a altura desejada */
+  object-fit: cover;
+  /* Preenche a área do container sem distorcer a imagem */
+  width: 100%;
+  /* Garante que a imagem cubra a largura do carrossel */
 }
